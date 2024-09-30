@@ -1,0 +1,63 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* styling the logo */
+
+.Logo{
+  width: 100px;
+  height:100px;
+  border-radius:5px;
+}
+
+.container4 li{
+  list-style: none;
+  /* color: red; */
+}
+.container1 li{
+  list-style: none;
+  /* color: red; */
+}
+.container2 {
+  background-image: url('./Components/Image/Kelvin.jpg');
+  background-repeat: no-repeat;
+  /* width: 500vh; */
+  height: 200vh;
+}
+/* puting background image on the school of business page */
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cate{
+  color:blue;
+  list-style: none;
+  text-transform: capitalize;
+  padding-right: 6em;
+}
+
+/* styling the home page image */
+.landing{
+  height: 150vh;
+  background-size: cover;
+}
+
+.container1{
+  border: 1px solid #ddd;
+  width: 700px;
+  margin: 0.5em;
+  margin-top: 3em;
+  /* margin-left: 25em; */
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    grid-gap: 5px;
+  
+}
